@@ -192,6 +192,8 @@ export function createPet(
             return new Crab(...standardPetArguments, PetSpeed.slow);
         case PetType.clippy:
             return new Clippy(...standardPetArguments, PetSpeed.slow);
+         case PetType.gardevoir:
+            return Gardevoir.possibleColors;
         case PetType.mod:
             return new Mod(...standardPetArguments, PetSpeed.normal);
         case PetType.totoro:
