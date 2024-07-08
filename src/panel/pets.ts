@@ -196,8 +196,10 @@ export function createPet(
             return new Mod(...standardPetArguments, PetSpeed.normal);
         case PetType.totoro:
             return new Totoro(...standardPetArguments, PetSpeed.normal);
+        case PetType.gardevoir:
+            return new Gardevoir(...standardPetArguments, PetSpeed.normal);
         case PetType.snail:
-            return new Snail(...standardPetArguments, PetSpeed.verySlow);
+            return new Snail(...standardPetArguments, PetSpeed.verySlow);       
         case PetType.snake:
             return new Snake(...standardPetArguments, PetSpeed.verySlow);
         case PetType.rubberduck:
