@@ -13,6 +13,7 @@ import { Rat } from './pets/rat';
 import { Rocky } from './pets/rocky';
 import { RubberDuck } from './pets/rubberduck';
 import { Snail } from './pets/snail';
+import { Gardevoir } from './pets/gardevoir';
 import { Snake } from './pets/snake';
 import { Totoro } from './pets/totoro';
 import { Turtle } from './pets/turtle';
