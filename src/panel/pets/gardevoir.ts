@@ -62,7 +62,7 @@ export class Gardevoir extends BasePetType {
     }
 }
 
-export const SNAIL_NAMES: ReadonlyArray<string> = [
+export const GARDEVOIR_NAMES: ReadonlyArray<string> = [
     'Flash',
     'Sonwy',
     'Shally',
